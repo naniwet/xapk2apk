@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts (we never want to commit binary APKs)
+*.apk
+*.xapk
+*.apks
+!tests/fixtures/*.apk
+
+# OS
+.DS_Store
+Thumbs.db
